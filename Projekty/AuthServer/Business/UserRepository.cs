@@ -41,12 +41,12 @@ namespace AuthServer.Business
         {
             using (IDbConnection connection = _connection)
             {
-                string query = @"SELECT * FROM Users WHERE Username = @username AND Active = 1;";
+                string query = @"SELECT * FROM Users WHERE Username = @username AND IsActive = 1;";
 
                 connection.Open();
-                User user = connection.Query<User>(query, new { username = username }).FirstOrDefault();
+                User user = connection.Query<User>(query, new { username }).FirstOrDefault();
 
-                if (null != user.Username)
+                if (null != user)
                 {
                     _logger.LogInformation($"User {user.Username} exists.");
                     return true;
@@ -76,7 +76,7 @@ namespace AuthServer.Business
         {
             using (IDbConnection connection = _connection)
             {
-                string query = @"SELECT * FROM Users WHERE Username = @username AND Active = 1;";
+                string query = @"SELECT * FROM Users WHERE Username = @username AND IsActive = 1;";
 
                 connection.Open();
                 User user = connection.Query<User>(query, new { username = username}).FirstOrDefault();

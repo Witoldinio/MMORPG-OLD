@@ -14,6 +14,7 @@ namespace Networking.PackageParser
         public PackageParser(ILogger<PackageParser> logger)
         {
             _logger = logger;
+            ResolvePackage();
         }
 
         private void ResolvePackage()

@@ -60,7 +60,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ClientConnection.cs" />
     <Compile Include="Assets\Scripts\ClientManager.cs" />
+    <Compile Include="Assets\Scripts\ConfigurationService.cs" />
+    <Compile Include="Assets\Scripts\GameContext.cs" />
+    <Compile Include="Assets\Scripts\MenuManager.cs" />
+    <None Include="Assets\DEPS\Microsoft.Extensions.Logging.Abstractions.xml" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/zywica/Documents/Unity/MMORPG/MMORPG/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -270,6 +275,54 @@
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Networking">
+      <HintPath>C:/Users/zywica/Documents/Unity/MMORPG/MMORPG/Assets/Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+      <HintPath>C:/Users/zywica/Documents/Unity/MMORPG/MMORPG/Assets/DEPS/Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Binder">
+      <HintPath>C:/Users/zywica/Documents/Unity/MMORPG/MMORPG/Assets/DEPS/Microsoft.Extensions.Configuration.Binder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration">
+      <HintPath>C:/Users/zywica/Documents/Unity/MMORPG/MMORPG/Assets/DEPS/Microsoft.Extensions.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>C:/Users/zywica/Documents/Unity/MMORPG/MMORPG/Assets/DEPS/Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection">
+      <HintPath>C:/Users/zywica/Documents/Unity/MMORPG/MMORPG/Assets/DEPS/Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>C:/Users/zywica/Documents/Unity/MMORPG/MMORPG/Assets/DEPS/Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Configuration">
+      <HintPath>C:/Users/zywica/Documents/Unity/MMORPG/MMORPG/Assets/DEPS/Microsoft.Extensions.Logging.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Console">
+      <HintPath>C:/Users/zywica/Documents/Unity/MMORPG/MMORPG/Assets/DEPS/Microsoft.Extensions.Logging.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging">
+      <HintPath>C:/Users/zywica/Documents/Unity/MMORPG/MMORPG/Assets/DEPS/Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options.ConfigurationExtensions">
+      <HintPath>C:/Users/zywica/Documents/Unity/MMORPG/MMORPG/Assets/DEPS/Microsoft.Extensions.Options.ConfigurationExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options">
+      <HintPath>C:/Users/zywica/Documents/Unity/MMORPG/MMORPG/Assets/DEPS/Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives">
+      <HintPath>C:/Users/zywica/Documents/Unity/MMORPG/MMORPG/Assets/DEPS/Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:/Users/zywica/Documents/Unity/MMORPG/MMORPG/Assets/DEPS/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>C:/Users/zywica/Documents/Unity/MMORPG/MMORPG/Assets/DEPS/System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>C:/Users/zywica/Documents/Unity/MMORPG/MMORPG/Assets/DEPS/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/zywica/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>

@@ -1,10 +1,10 @@
 ﻿{
   "ConnectionStrings": {
-    "MySQL": "server=;userid=;pwd=;port=3306;database=;sslmode=none;"
+    "MySQL": "server=wreeav002;userid=witek;pwd=dodger1982;port=3306;database=witek;"
   },
   "DataVars": {
     "Max_Players": 1500
   },
   "host": "0.0.0.0",
-  "port":  6543
+  "port": 6543
 }

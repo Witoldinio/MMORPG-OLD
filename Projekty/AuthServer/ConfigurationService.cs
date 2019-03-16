@@ -1,10 +1,7 @@
-﻿using AuthServer.Services;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using NLog.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace AuthServer
 {
